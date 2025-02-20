@@ -2,7 +2,7 @@
 import logging
 import sys
 import os
-import imp
+import importlib
 l = logging.getLogger("autoblob.cpu_rec")
 
 package_directory = os.path.dirname(os.path.abspath(__file__))
